@@ -1,0 +1,59 @@
+https://ideone.com/JRly84
+***Checking collision rate of the hash functions***
+hashFunc1 Collision rate = 36.682000
+hashFunc2 Collision rate = 36.803000
+hashFunc3 Collision rate = 36.891000
+
+Generating and inserting initial data...
+Checking discards: 5 5 5 5 5 5
+Checking values: 10001 10001 10001 10001 10001 10001
+
+Generating test search strings...
+
+***Results for Linear Probing***
+
+Linear Probing with Hash function 1:
+Number of collisions: 4996
+Search time for 10000 searches: 856.104000 milisec
+Average time for search: 0.085610 milisec
+Number of Successful Searches: 8
+
+Linear Probing with Hash function 2:
+Number of collisions: 4999
+Search time for 10000 searches: 721.966000 milisec
+Average time for search: 0.072197 milisec
+Number of Successful Searches: 8
+
+Linear Probing with Hash function 3:
+Number of collisions: 4990
+Search time for 10000 searches: 825.120000 milisec
+Average time for search: 0.082512 milisec
+Number of Successful Searches: 8
+
+
+***Results for Separate Chaining***
+
+Separate Chaining with Hash function 1:
+Number of collisions: 3673
+Search time for 10000 searches: 1.252000 milisec
+Average time for search: 0.000125 milisec
+Number of Successful Searches: 8
+
+Separate Chaining with Hash function 2:
+Number of collisions: 3653
+Search time for 10000 searches: 0.789000 milisec
+Average time for search: 0.000079 milisec
+Number of Successful Searches: 8
+
+Separate Chaining with Hash function 3:
+Number of collisions: 3715
+Search time for 10000 searches: 0.632000 milisec
+Average time for search: 0.000063 milisec
+Number of Successful Searches: 8
+
+Destroying Separate Chaining Table...
+Destroying Separate Chaining Table...
+Destroying Separate Chaining Table...
+Destroying Linear Probing Table...
+Destroying Linear Probing Table...
+Destroying Linear Probing Table...
