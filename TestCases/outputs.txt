@@ -1,0 +1,86 @@
+1:
+Source = 5
+V                V.d             V.pi
+1                6              2
+2                3              4
+3                3              4
+4                2              5
+5                0              NIL
+Negative cycle: NO
+
+2:
+Source = 8
+V                V.d             V.pi
+1                5              8
+2                14             5
+3                17             2
+4                9              8
+5                13             4
+6                25             2
+7                8              8
+8                0              NIL
+Negative cycle: NO
+
+3:
+Source = 4
+V                V.d             V.pi
+1                -2             2
+2                3              3
+3                1              1
+4                0              NIL
+Negative cycle: YES
+
+4:
+Source = 1
+V                V.d             V.pi
+1                0              NIL
+2                -3             4
+3                -1             2
+4                -4             3
+5                0              3
+Negative cycle: YES
+
+5:
+Source = 1
+V                V.d             V.pi
+1                0              NIL
+2                5              4
+3                6              1
+4                10             3
+5                9              2
+6                13             5
+Negative cycle: NO
+
+6:
+Source = 1
+V                V.d             V.pi
+1                0              NIL
+2                -1             1
+3                2              2
+4                -2             5
+5                1              2
+Negative cycle: NO
+
+7:
+Source = 1
+V                V.d             V.pi
+1                0              NIL
+2                -3             4
+3                1              2
+4                -4             5
+5                0              2
+Negative cycle: YES
+
+8:
+Source = 1
+V                V.d             V.pi
+1                0              NIL
+2                4              1
+3                1              1
+4                3              1
+5                999999                 NIL
+6                5              3
+Negative cycle: NO
+
+
+
