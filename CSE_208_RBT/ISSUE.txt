@@ -1,0 +1,1 @@
+DELETE function does not work correctly
