@@ -7,3 +7,5 @@ Graph implemented in C++ as part of CSE 208
 # CSE_208_MST
 Minimum Spanning Tree in C++ using Prim's Algorithm and Kruskal's Algorithm
 
+# CSE_208_ShortestPath
+Shortest Path using Bellman-Ford algorithm in C++ as part of CSE 208
